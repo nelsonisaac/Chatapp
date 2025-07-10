@@ -1,0 +1,29 @@
+.Titlebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .Imagebox {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .ant-card .ant-card-body {
+    padding: 8px;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .Dashboard .ChatListBox {
+    width: 30%;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+  }
+  
+  .Dashboard .ChatBox {
+    width: 70%;
+  }

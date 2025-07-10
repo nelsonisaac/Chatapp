@@ -1,0 +1,29 @@
+.username {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* border: 0.1px solid #ccc; */
+  }
+  
+  .username .card {
+    border: 1px solid #ccc;
+    margin-top: 10vh;
+  }
+  
+  .username .userinput {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #1890ff;
+    margin-right: 10px;
+  }
+  
+  .username .usernameButton {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
