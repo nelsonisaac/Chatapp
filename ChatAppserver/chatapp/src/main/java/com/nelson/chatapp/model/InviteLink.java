@@ -1,4 +1,17 @@
 package com.nelson.chatapp.model;
 
-public class InviteLink {
+import lombok.*;
+
+import java.io.Serializable;
+
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class InviteLink implements Serializable {
+    private String token;
+    private String roomId;
+    private boolean active;
 }
